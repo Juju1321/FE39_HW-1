@@ -86,7 +86,7 @@
 }
 
 .wdescription__btn:hover {
-   padding-top: 3px;
+   box-shadow: 3px 3px 5px gray;
 }
 
 .wdescription__btn span {
@@ -98,4 +98,184 @@
    text-transform: uppercase;
 
    color: #FFFFFF;
+}
+
+/* footer */
+
+
+.footer {
+   background-color: #151515;
+   margin-top: 30px;
+}
+
+.footer__wrapper {
+   display: flex;
+   justify-content: space-between;
+
+   padding-top: 69px;
+}
+
+.footer__description {
+   padding-top: 20px;
+}
+
+.f-description__text {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+
+   color: #A2A2A2;
+
+   margin-top: 34px;
+   margin-bottom: 18px;
+}
+
+
+.f-description__social a {
+   text-decoration: none;
+   margin-right: 18px;
+}
+
+
+.f-description__info {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 24px;
+
+   color: #989898;
+
+   mix-blend-mode: normal;
+   opacity: 0.4;
+
+   margin-top: 57px;
+   margin-bottom: 0px;
+
+}
+
+
+.f-links__title {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 30px;
+
+   color: #FFFFFF;
+
+   margin: 0px;
+   margin-bottom: 47px;
+}
+
+.f-links__nav {
+   display: flex;
+   flex-direction: column;
+
+}
+
+.f-links__nav a {
+   text-decoration: none;
+
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 30px;
+
+   color: #A2A2A2;
+}
+
+.f-links__nav a:hover {
+   color: #e9e3e3;
+}
+
+
+
+.f-contacts__title {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 24px;
+
+   color: #FFFFFF;
+
+   margin: 0px;
+
+   margin-bottom: 51px;
+}
+
+.f-contacts__description {
+   display: flex;
+   flex-direction: column;
+}
+
+.f-contacts__description a{
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+
+   color: #A2A2A2;
+
+   margin: 0px;
+
+   text-decoration: none;
+}
+
+.f-contacts__app {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 24px;
+   
+   color: #A2A2A2;
+
+   margin-top: 70px;
+}
+
+.f-instagram__title {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 24px;
+   
+   color: #FFFFFF;
+
+   margin: 0px;
+   margin-bottom: 31px;
+}
+
+.f-instagram__pic {
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.f-instagram__pic div {
+	padding: 0;
+   width: 70px;
+   height: 70px;
+	margin-right: 10px;
+   margin-bottom: 10px;
+   background-color: #C4C4C4;
+}
+
+.f-instagram__pic div:last-child {
+   margin-right: 0px;
+}
+
+.active img {
+   margin: 23px 23px;
+}
+
+
+.googl {
+   margin-bottom: 2px;
 }
